@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Advance Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        @media(max-width:  1315px){
+          ul{
+              display: block;
+              clear: none!important;
+              margin-top: 10px!important;
+              float: none !important;
+              margin-left: 10px;
+          }
+          button{
+              float: none !important;
+              clear: none !important;
+          }
+          input{
+            float: none !important;
+            width: 100% !important;
+              clear: none !important;
+          }
+          textarea{
+            float: none !important;
+              clear: none !important;
+              width: 100%!important;
+          }
+          .main-div{
+              height: auto !important;
+          }
+        }
+        @media (max-width: 350px){
+            .main-div{
+                height: auto!important;
+            }    
+            }
+        @media(min-width: 1501px) and (max-width: 2500px){
+        main{
+            width: 1500px;
+            margin: auto;
+        }
+        }
+        iframe{
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .main-div{
+            margin-top: 10px;
+            width: 100%;
+            height: 42vh;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        input{
+            display: block;
+            width: 800px;
+            outline: none;
+            height: 40px;
+            border-radius: 2px;
+            border-width: 1px;
+            padding-left: 10px;
+            float: left;
+            clear: left;
+        }
+        #textarea{
+            float: left;
+            outline: none;
+            display: block;
+            clear: left;
+            margin-top: 10px;
+            width: 800px;
+            padding-top: 8px;
+            padding-left: 10px;
+            height: 100px;
+        }
+        
+        button{
+            float: left;
+            display: block;
+            outline: none;
+            clear: left;
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+            cursor: pointer;
+        }
+        li{
+            font-size: 20px;
+        }
+        #Name{
+           margin-bottom: 5px;
+        }
+        #main-ul{
+            float: right;
+            clear: right;
+            margin-right: 10px;
+            margin-top: -150px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h3>Advance Form</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43164.15795074417!2d91.67202667184459!3d26.152879148079435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5b3d391a9f77%3A0x83155c6f5628eab7!2sMaligaon%2C%20Guwahati%2C%20Assam!5e0!3m2!1sen!2sin!4v1624440139913!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="main-div">
+    <form>
+        <input type="text"placeholder="Enter Your Name"id="Name">
+        <input type="password" placeholder="Enter Your Password"id="Password">
+        <textarea placeholder="Enter Your Message" id="textarea"></textarea>
+        <button>Submit</button>
+    </form>
+    <ul id="main-ul">
+        <h2 style="margin-bottom: 5px;">Get In Touch</h2>
+        <li class="main-li">Visit Our Site YourWebsiteMaker</li>
+        <li class="main-li">123@gmail.com</li>
+        <li class="main-li">1234567890</li>
+        <li class="main-li">Maligaon, Guwahati</li>
+    </ul>
+</div>
+</main>
+</body>
+</html>
